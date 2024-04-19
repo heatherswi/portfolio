@@ -4,12 +4,30 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-p, li, .navbar-brand {
+a.navText, li{
+    font-family: 'petit formal script';
+    color: white;
+}
+
+p, .navbar-brand {
     font-size: 22px;
     font-family: 'simsun';
     color: white;
 }
 
+a.footerLink {
+    font-family: 'simsun';
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.navbar-brand {
+   font-family: 'petit formal script';
+    color: white; 
+}
 .bodyText {
     color: black;
 }
@@ -29,20 +47,22 @@ body {
 
 
 .photoFrame {
-    /*display: block;
+    display: block;
     padding-top: 8%;
-    max-width: 70%;
+    max-width: 90%;
     
     margin: 0 auto;
     padding-right: 0;
     justify-content: center;
-    */
+    
+    /*
     float: right;
    
     max-width: 90%; 
     height: auto;
     align-content: center;
     padding-top: 10%;
+    */
 }
 
 .customNav {
@@ -109,12 +129,13 @@ body {
 
 .resumeLink {
     text-align: right;
+     color: white;
 }
 
-a {
+
+a.resumeLinkText {
     color: white;
 }
-
 
 
 footer {
