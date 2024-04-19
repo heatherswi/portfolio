@@ -107,6 +107,13 @@ body {
     
 }
 
+button.navbar-toggler {
+    background-color:#ffffff;
+}
+span.navbar-toggler-icon {
+   background-color: #ffffff;
+}
+
 .blackStar {
     width: 10%;
 }
