@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, li, .navbar-brand {
+    font-size: 22px;
     font-family: 'simsun';
     color: white;
 }
@@ -28,19 +29,20 @@ body {
 
 
 .photoFrame {
-    display: block;
+    /*display: block;
     padding-top: 8%;
     max-width: 70%;
     
     margin: 0 auto;
     padding-right: 0;
     justify-content: center;
-    /*
-    float: right;
-    padding-top: 10%;
-     width: 90%; 
-    height: auto;
     */
+    float: right;
+   
+    max-width: 90%; 
+    height: auto;
+    align-content: center;
+    padding-top: 10%;
 }
 
 .customNav {
@@ -113,20 +115,24 @@ a {
     color: white;
 }
 
-@media screen and (max-width:900px) {
-    .resumeLink {
-        text-align: left;
-    }
-    
-    .photoFrame {
 
-        align-content: center;
-        justify-content: center;
-        
-    }
-}
 
 footer {
     background-color: #3F363C;
 }
 
+@media screen and (max-width:800px) {
+    .resumeLink {
+        text-align: left;
+    }  
+}
+
+@media screen and (max-width:991px) {
+    .photoFrame {
+       display: grid;
+        align-content: center;
+        justify-content: center;
+    
+        
+    }
+}
