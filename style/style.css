@@ -51,10 +51,12 @@ body {
     font-size: 22px;
     padding-bottom: 0px;
 }
-
+.longLine {
+    width: 200%;
+}
 .photoFrame {
     display: block;
-    padding-top: 8%;
+    padding-top: 20%;
     max-width: 90%;
     
     margin: 0 auto;
@@ -105,6 +107,9 @@ body {
     
 }
 
+.blackStar {
+    width: 10%;
+}
 .bow{
     scale: 0.7;
     padding-left: 7%;
@@ -172,7 +177,9 @@ footer {
        display: grid;
         align-content: center;
         justify-content: center;
-    
-        
+    }
+        .longLine {
+            width: 100%;
+        }
     }
 }
