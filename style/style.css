@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 a.navText, li{
     font-family: 'petit formal script';
     color: white;
+    
 }
 
 p, .navbar-brand {
@@ -45,6 +46,11 @@ body {
     color:black;
 }
 
+.navText {
+    padding-top: 40px;
+    font-size: 22px;
+    padding-bottom: 0px;
+}
 
 .photoFrame {
     display: block;
@@ -71,11 +77,18 @@ body {
     top: 0;
     width:100%;
     background: url("https://i.pinimg.com/736x/59/48/64/594864394ce6c042c55a272437ef8587.jpg");
-    
+    height: 75px;
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
   }
+
+.smallBr {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: -20; /* change this to whatever height you want it */
+}
+
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
@@ -91,6 +104,12 @@ body {
     margin: 0px 15px;
     
 }
+
+.bow{
+    scale: 0.7;
+    padding-left: 7%;
+}
+
 
 .customNav a {
     color: rgb(255, 255, 255) !important;
